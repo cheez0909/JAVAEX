@@ -35,8 +35,8 @@ public @interface Override {
 public enum RetentionPolicy {
 
     SOURCE, //  소스 파일에만 존재, 클래스 파일 존재X -> 컴파일 시점에 정보가 전달됨, 컴파일 이후에 제거
-    CLASS, // 자바코드에 존재(java), 클래스 파일에 존재(class) -> 디폴트값, 정보전달X
-    RUNTIME // 자바코드에 존재(java), 클래스 파일에 존재(class) -> 실행 중에 정보가 전달
+    CLASS, // 자바코드에 존재(java), 클래스 파일에 존재(class) -> 디폴트값, 정보전달X(거의 사용X)
+    RUNTIME // 자바코드에 존재(java), 클래스 파일에 존재(class) -> 실행 중에 정보가 전달(많이 사용)
 }
 ```
 
