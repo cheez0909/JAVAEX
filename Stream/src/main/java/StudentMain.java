@@ -1,4 +1,11 @@
+/**
+ * 1. 작성자 : Dani
+ * 2. 작성일 : 12월 11일
+ * 3. Stream 만들기 예제4
+ *  - Student 클래스 내부 정렬 재정의
+ */
 import java.util.Comparator;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,8 +33,11 @@ public class StudentMain {
         /**
          * Comparator.naturalOrder() 활용
          */
-        Stream.of(students).sorted(Comparator.comparing(Student::getBan).thenComparing(Comparator.naturalOrder()))
-                .forEach(System.out::println);
+//        Stream.of(students).sorted(Comparator.comparing(Student::getBan).thenComparing(Comparator.naturalOrder()))
+//                .forEach(System.out::println);
+
+        Optional<Student> any = Stream.of(students).filter(x -> x.getTotalScore() < 300).findAny();
+        System.out.println(any);
 
     }
 }

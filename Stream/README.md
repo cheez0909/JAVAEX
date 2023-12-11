@@ -57,7 +57,7 @@ ___
 <br>
 
 ### 📑 1-2. 스트림의 중간연산
-#### 💾 `StreamEx3`
+#### 💾 `StreamEx3`, `StreamEx4`, `StreamEx5`, `StreamEx6`
 ___
 - 스트림 자르기
   - `skip()`, `limit()`
@@ -68,5 +68,41 @@ ___
 - 변환
   - `map()`
 - 조회
-  - `peek()`
-  - 
+  - `peek()`, `forEach()`와 유사하지만 중간연산자이다.
+
+<br>
+<br>
+
+### 📑 1-3. 스트림의 최종연산
+#### 💾 `StreamEx3`, `StreamEx4`, `StreamEx5`, `StreamEx6`, `StreamEx7`
+___
+- `forEach()`
+- 조건 검사
+  - `allMatch()`, `anyMatch()`, `noneMatch()`, `findFirst()`
+- 통계
+  - `count()`, `sum()`, `average()`, `max()`, `min()`
+- 리듀싱
+  - `reduce()`
+- `collect()`
+  - 스트림 컬렉션과 배열로 반환
+    - `toList()`, `toSet()`, `toMap()`, `toCollection()`, `toArray()`
+- 문자열 결합
+  - `joining()`
+<br>
+<br>
+
+### 📑 1-4. Optional
+#### 📂 `Optional` > 💾 `OptionalEx1`, 💾 `OptionalEx2`
+___
+#### Optional과 OptionalInt
+> ✨ 모든 자료형의 wrapper 클래스 ✨
+- OptionalInt, OptionalLong, OptionalDouble
+
+
+
+- Optional 객체의 값 가져오기
+  - .get()
+  - .orElse("기본값") : 널 일경우 출력 값
+  - .orElseGet(Supplier<T ... > supplier)
+  - .orElseThrow()
+
