@@ -12,6 +12,13 @@ public class FruitBox<T extends Fruit> {
         items.add(item);
     }
 
+    @Override
+    public String toString() {
+        return "FruitBox{" +
+                "items=" + items +
+                '}';
+    }
+
     public List<T> getItems(){
         return items;
     }

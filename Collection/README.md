@@ -27,7 +27,7 @@ ___
   - HashSet, (SoretedSet)구현 -> TreeSet(정렬 기능 추가)
 
 ### 📑 Map
-- 키와 값의 쌍
+- 사전 자료구조
 - 키 : 중복을 허용하지 않음 / 반환값 Set
 - 값 : 중복을 허용함 / 반환값 Collection
 - HashMap(+LinkedHashMap), (SoretedMap) -> TreeMap

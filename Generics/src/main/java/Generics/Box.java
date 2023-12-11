@@ -22,4 +22,12 @@ public class Box<T extends Fruit> {
         // T->Fruit 투입된 타입으로 변환
         item.print();
     }
+
+    /**
+     * 지네릭 메서드
+     */
+    public <T> void testMethod(T t){
+        // 지네릭 메서드
+        // 메서드가 호출될 때 타입이 결정됨
+    }
 }

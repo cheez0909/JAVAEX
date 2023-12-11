@@ -1,5 +1,8 @@
 package Generics2;
 
+
+import Generics.Fruit;
+
 public class Juicier {
     
     
@@ -13,8 +16,17 @@ public class Juicier {
 //
 //    }
     
-//    ? -> 와일드 카드 무엇이 투입되도 됨
-    public static void make(FruitBox<?> fruitBox){
-        
+//    ? -> 와일드 카드 무엇이 투입돼도 됨
+//    public static void make(FruitBox<? extends Fruit> fruitBox){
+//        System.out.println(fruitBox.getItems());
+//    }
+
+    public static void make(FruitBox<? extends Fruit> fruitBox){
+        System.out.println(fruitBox.getItems());
+    }
+
+    public static <T extends Fruit> void make2(FruitBox<T> fruitBox){
+
+        System.out.println(fruitBox.getItems());
     }
 }
