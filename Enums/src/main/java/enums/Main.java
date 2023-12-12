@@ -1,7 +1,6 @@
-package Enum;
+package enums;
 
-import static Enum.Transportation.BUS;
-import static Enum.Transportation.TAXI;
+import static enums.Transportation.BUS;
 
 public class Main {
     public static void main(String[] args) {

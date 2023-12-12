@@ -1,7 +1,4 @@
-package Enum;
-
-
-
+package enums;
 public class Main1 {
     public static void main(String[] args) {
         String str = "TAXI";
@@ -11,6 +8,7 @@ public class Main1 {
 
         // 모든 생성자는 private
         System.out.println(Transportation.BUS instanceof Transportation);
+
 
         Transportation trans1 = Transportation.TAXI;
         System.out.println(trans1.getTitle());

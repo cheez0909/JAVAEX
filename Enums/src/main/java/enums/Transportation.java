@@ -1,4 +1,4 @@
-package Enum;
+package enums;
 
 public enum Transportation {
     BUS("버스", 1400) {
