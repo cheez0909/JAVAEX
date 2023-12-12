@@ -2,7 +2,7 @@
  * 1. 작성자 : Dani
  * 2. 작성일 : 12월 11일
  * 3. Stream 만들기 예제3
- *  - 여러 스트림 ㅁ나들기
+ *  - 여러 스트림 만들기
  */
 import java.util.ArrayList;
 import java.util.Arrays;
