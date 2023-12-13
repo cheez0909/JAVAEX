@@ -106,3 +106,4 @@ ___
   - .orElseGet(Supplier<T ... > supplier)
   - .orElseThrow()
 
+[🔍블로그 자세히 보기](https://velog.io/@dani0817/JAVA-%EC%8A%A4%ED%8A%B8%EB%A6%BCStream%EC%9D%B4%EB%9E%80)
