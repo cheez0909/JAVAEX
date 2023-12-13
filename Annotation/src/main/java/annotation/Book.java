@@ -1,4 +1,4 @@
-package Annotation;
+package annotation;
 
 public class Book {
     String title;

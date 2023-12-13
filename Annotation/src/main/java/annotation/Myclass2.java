@@ -1,4 +1,4 @@
-package Annotation;
+package annotation;
 
 import java.util.Arrays;
 
@@ -10,8 +10,6 @@ public class Myclass2 {
 
         Class cls = Myclass2.class;
         Myannotation2 anno = (Myannotation2) cls.getAnnotation(Myannotation2.class);
-
-
 
         String value = anno.value();
         System.out.println(value);
