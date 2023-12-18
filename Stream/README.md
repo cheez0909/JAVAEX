@@ -67,10 +67,17 @@ ___
   - `sorted()`
 - 변환
   - `map()`
+  - 일반 -> 기본자료형 : `mapToInt`, `mapToLong`, `mapToDouble`
 - 조회
   - `peek()`, `forEach()`와 유사하지만 중간연산자이다.
 
 <br>
+
+기본 자료형 -> 일반 스트림 변환 메서드
+Intstream -> Stream<Integer>
+ex) sorted()
+![img.png](img.png)
+
 <br>
 
 ### 📑 1-3. 스트림의 최종연산
