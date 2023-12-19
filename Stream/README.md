@@ -1,6 +1,7 @@
 [1. 스트림의 연산](#-1-스트림의-연산)<br>
 [1-2. 스트림의 중간연산](#-1-2-스트림의-중간연산)<br>
 [2. 스트림 만들기](#-2-스트림만들기)<br>
+[3. Optional 클래스](#-3-optional)<br>
 
 ## 📕 스트림이란?
 #### 컬렉션 프레임워크에서 정렬 : Collection.sort()
@@ -89,6 +90,7 @@ ___
 - 통계
   - `count()`, `sum()`, `average()`, `max()`, `min()`
 - 리듀싱
+  - #### 📂 `exer` > 💾 `StreamMain5`
   - `reduce()`
 - `collect()`
   - 스트림 컬렉션과 배열로 반환
@@ -98,19 +100,40 @@ ___
 <br>
 <br>
 
-### 📑 1-4. Optional
-#### 📂 `Optional` > 💾 `OptionalEx1`, 💾 `OptionalEx2`
+### 📑 3. Optional
+#### 📂 `Optional` 
 ___
 #### Optional과 OptionalInt
 > ✨ 모든 자료형의 wrapper 클래스 ✨
-- OptionalInt, OptionalLong, OptionalDouble
+- JDK8
+- null에 대한 다양한 처리 방법을 제공하는 클래스
+```java
+class Optional<T>{
+  ...
+  private final T value;
+  ...
+}
+```
 
+<br>
 
+#### 3-1. Optional 객체 생성하기
+- `static Optional<T> of(T t)` : t가 null이면 오류 발생
+- `static Optional<T> ofNullable(T t)` : t가 null이어도 오류 발생 X
 
-- Optional 객체의 값 가져오기
-  - .get()
-  - .orElse("기본값") : 널 일경우 출력 값
-  - .orElseGet(Supplier<T ... > supplier)
-  - .orElseThrow()
+<br>
+
+#### 3-2. Optional 객체의 값 가져오기
+  - T get() : null 이면 오류 발생
+  - T orElse(T other) : 널이 아니면 값 반환, 널 일경우 other 값 반환
+  - T orElseGet(Supplier<T ... > supplier)
+  - T orElseThrow() : null이면 예외 발생
+  - T orElseThrow(Supplier<T ... > supplier) : 예외 발생
+
+<br>
+
+#### 3-3. OptionalInt, OptionalLong, OptionalDouble
+- 기본형을 처리하는 Optional 클래스
+- 오토박싱, 언박싱이 발생X -> 성능상의 이점
 
 [🔍블로그 자세히 보기](https://velog.io/@dani0817/JAVA-%EC%8A%A4%ED%8A%B8%EB%A6%BCStream%EC%9D%B4%EB%9E%80)
