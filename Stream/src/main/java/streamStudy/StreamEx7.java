@@ -1,12 +1,10 @@
-/**
+package streamStudy; /**
  * 1. 작성자 : Dani
  * 2. 작성일 : 12월 11일
  * 3. Stream 만들기 예제8
  */
-import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;

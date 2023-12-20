@@ -1,4 +1,4 @@
-/**
+package streamStudy; /**
  * 1. 작성자 : Dani
  * 2. 작성일 : 12월 11일
  * 3. Stream 만들기 예제1

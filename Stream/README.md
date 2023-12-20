@@ -16,7 +16,7 @@
 <br>
 
 ### 📑 1. 스트림의 연산
-#### 💾 `StreamEx1`, 💾 `StreamEx2`
+#### 💾 `streamStudy.StreamEx1`, 💾 `streamStudy.StreamEx2`
 ___
 #### 중간연산
 👉 연산의 결과가 스트림이면 중간연산<br>
@@ -29,7 +29,7 @@ ___
 <br>
 
 ### 📑 2. 스트림만들기
-#### 💾 `StreamEx3`
+#### 💾 `streamStudy.StreamEx3`
 ___
 - 컬렉션
   - `Collection` 인터페이스 -> `stream()`
@@ -58,7 +58,7 @@ ___
 <br>
 
 ### 📑 1-2. 스트림의 중간연산
-#### 💾 `StreamEx3`, `StreamEx4`, `StreamEx5`, `StreamEx6`
+#### 💾 `streamStudy.StreamEx3`, `streamStudy.StreamEx4`, `streamStudy.StreamEx5`, `streamStudy.StreamEx6`
 ___
 - 스트림 자르기
   - `skip()`, `limit()`
@@ -82,7 +82,7 @@ ex) sorted()
 <br>
 
 ### 📑 1-3. 스트림의 최종연산
-#### 💾 `StreamEx3`, `StreamEx4`, `StreamEx5`, `StreamEx6`, `StreamEx7`
+#### 💾 `streamStudy.StreamEx3`, `streamStudy.StreamEx4`, `streamStudy.StreamEx5`, `streamStudy.StreamEx6`, `streamStudy.StreamEx7`
 ___
 - `forEach()`
 - 조건 검사
@@ -90,7 +90,7 @@ ___
 - 통계
   - `count()`, `sum()`, `average()`, `max()`, `min()`
 - 리듀싱
-  - #### 📂 `exer` > 💾 `StreamMain5`
+  - #### 📂 `streamClass` > 💾 `StreamMain5`
   - `reduce()`
 - `collect()`
   - 스트림 컬렉션과 배열로 반환

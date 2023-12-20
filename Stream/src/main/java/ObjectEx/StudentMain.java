@@ -10,7 +10,7 @@ public class StudentMain {
 
         s1.showInfo(); // 정적변수는 모든 인스턴스들이 값을 공유한다
 
-//        Student s3 = s2; // 주소값만 복사 한 것
+//        streamStudy.Student s3 = s2; // 주소값만 복사 한 것
 //        s3.id = 1001;
 //        s3.name = "(수정)학생";
 //        s3.showInfo();

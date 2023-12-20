@@ -1,4 +1,4 @@
-package exer;
+package streamClass;
 
 import java.util.Arrays;
 

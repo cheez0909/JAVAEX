@@ -1,3 +1,4 @@
+package streamStudy;
 
 public class Student implements Comparable<Student>{
     private String name;
@@ -24,7 +25,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "streamStudy.Student{" +
                 "name='" + name + '\'' +
                 ", ban=" + ban +
                 ", totalScore=" + totalScore +

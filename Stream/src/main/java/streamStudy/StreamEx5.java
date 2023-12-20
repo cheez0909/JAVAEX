@@ -1,13 +1,13 @@
-/**
+package streamStudy; /**
  * 1. 작성자 : Dani
  * 2. 작성일 : 12월 11일
- * 3. Stream 만들기 예제7
+ * 3. Stream 만들기 예제6
  */
 import java.util.IntSummaryStatistics;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StreamEx6 {
+public class StreamEx5 {
     public static void main(String[] args) {
         Student[] students = {
                 new Student("이름1", 1, 300),
