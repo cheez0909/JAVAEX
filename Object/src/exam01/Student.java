@@ -1,4 +1,4 @@
-package ObjectEx;
+package exam01;
 
 public class Student {
     static int id; // 정적변수

@@ -1,4 +1,4 @@
-package ObjectEx;
+package exam01;
 
 public class StudentMain1 {
     public static void main(String[] args) {
