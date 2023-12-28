@@ -5,10 +5,14 @@ import java.io.Serializable;
 // 직렬화 -> 마커 인터페이스
 public class Book implements Serializable {
 
+    public static final long serialVersionUID = 1L;
     private String title;
     private String author;
     private String publisher;
 
+    private String str;
+    private String str1;
+    private String str3;
     /**
      * 생성자 추가
      */

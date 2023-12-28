@@ -2,11 +2,13 @@ package exam04;
 
 import java.io.*;
 import java.util.Map;
+import java.util.stream.IntStream;
 
 public class Ex02 {
     public static void main(String[] args) {
         try(FileInputStream fis = new FileInputStream("book.obj");
             ObjectInputStream ois = new ObjectInputStream(fis)){
+
             /**
              * 여러개를 가져올 경우 순서대로 가져와야함
              */
